@@ -1,0 +1,75 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    /*--------------------------------------address---------------------------------*/
+.address h3{
+    font-size: 21px;
+    font-weight: 500;
+
+}
+.address h3 span{
+    font-size: 13px;
+}
+.address h4{
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.address button{
+    font-size: 12px;
+    font-weight: 100;
+    padding: 8px 13px;
+}
+/*--------------------------------------cart-item---------------------------------*/
+
+    .cart-item .item-name h2{
+        font-family: "Inria Sans", serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .cart-item .item-name h4{
+        font-size: 11px;
+        font-weight: 400;
+        font-family: "Inria Sans", serif;
+    }
+    .cart-item .item-name h5{
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Inria Sans", serif;
+    }
+    .cart-item .add-more h5{    
+        border: 2px solid rgb(172, 170, 170);
+        color: var(--dark-color);
+        padding: 1px 7px;
+        font-size: 10px;
+    
+    }
+    .cart-item .add-more h4{
+        border: 2px solid rgb(172, 170, 170);
+        border-radius: 50px;
+        padding: 0px 5px;
+        color: var(--dark-color);
+        font-size: 18px;
+    }
+    
+    .cart-item .price h3{
+        font-size: 13px;
+    
+    }
+    .cart-item .price h6{
+        font-weight: 200;
+        font-size: 11px;
+    }
+    .cart-item .price h5{
+        font-size: 10px;
+    }
+    .cart-item .price h4{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .cart-item .row .remove a{
+        color: white;
+        opacity: 0.5;
+    }
+    .cart-item .remove a:hover{
+        opacity: 1;
+    }
+}

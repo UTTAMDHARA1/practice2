@@ -1,0 +1,63 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    header{
+        height: 200px;
+    }
+    header .search-bar button{
+        padding: 4px 0px;
+    }
+    
+    header .header-text{
+        margin: 0;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -12%);
+    }
+    header .form-control{
+        padding: 4px;
+        }
+        
+    
+    header h1{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Jost", serif;
+    }
+    header p{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: "Inconsolata", serif;
+    
+    }
+    header .container .row .offcanvas{
+        width: 63%;
+    }
+/*--------------------------------------shop-options---------------------------------*/
+    .owl-theme .owl-dots{
+        display: block;
+    }
+    .owl-theme .owl-nav{
+        display: none;
+    }
+    .shop-options .owl-carousel {
+        padding: 0 3px;
+    }
+    .shop-options .owl-carousel .item .cart-content{
+        height: 283px;
+    }    
+    .shop-options .owl-carousel .item .cart-content h3{
+        font-size: 18px;
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 500;
+    
+    }
+    .shop-options .owl-carousel .item .cart-content h4{
+        font-size: 12px;
+        font-weight: 300;
+        padding: 6px 0px 7px 0;
+    }    
+    .shop-options .owl-carousel .item .cart-content h5{
+    margin: 5px 0 5px 0;
+}
+
+    
+}

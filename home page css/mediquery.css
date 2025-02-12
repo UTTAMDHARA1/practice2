@@ -1,0 +1,137 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+
+    .top-banner .banner-content .banner-text h2{
+        stroke: #64562E 100% !important;
+        font-size: 32px;
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 500;
+    }
+    .top-banner .banner-content .banner-text h5{
+        font-family: "Cormorant Garamond", serif;
+    }
+
+    /*-------------varients-------------*/
+.varrients .varrients-text h3{
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+.varrients .varrients-text h4{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.varrients .pine-apple img{
+    box-shadow: 0 5px 25px 0 #594631;
+    border-radius: 25px;
+}
+
+.varrients  .col-4:nth-child(3){
+    margin-top: 10%;
+}
+.varrients  .col-4:nth-child(4){
+    margin-top: 7%;
+}
+/*-----------------------------describe-------------------------------------*/
+.describe .header h2{
+    font-size: 27px;
+    font-family: "Cormorant Garamond", serif; ;
+}
+.describe .nav-link{
+    color: #5a034e!important;
+    font-size: 15px!important;
+    font-weight: 400!important;
+}
+.describe .tab-content .tab-pane ul li{
+    font-size: 15px;
+}
+/*-----------------------------shop-cart-------------------------------------*/
+.shop-cart .cart-heading h2{
+    font-size: 20px;
+
+}
+.shop-cart .cart-heading h2 span{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    display: none;
+}
+.shop-cart .owl-carousel button.owl-dot{
+    display: inline-block;
+}
+.shop-cart .owl-carousel {
+    padding: 0px 20px;
+}
+/*-----------------------------Company-------------------------------------*/
+.company .company-header h3{
+    font-size: 32px;
+    text-align: center;
+}
+.company .company-header p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.company .company .accordion .accordion-item button{
+    font-size: 17px;
+    font-family: 500;
+}
+.company .accordion .accordion-item .accordion-body p{
+    font-size: 16px;
+    font-weight: 600;
+}
+/*-----------------------------leaders-------------------------------------*/
+.Leaders .Leaders-heading h2{
+    font-size: 25px;
+}
+.Leaders .Leaders-heading h2 span{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.Leaders .Leaders-content .manager img{
+    width: 55px;
+}
+.Leaders .Leaders-content h3{
+    font-family:"Jost", serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.Leaders .Leaders-content h4{
+    font-family: "Jost", serif;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+/*-----------------------------footer-------------------------------------*/
+footer .row:nth-child(2) .col-lg-4:nth-child(2) ul li{
+    font-size: 15px;
+}
+footer .row:nth-child(2) .col-lg-4:nth-child(3) ul li{
+    font-size: 15px;
+}
+
+footer .footer-header h3{
+    font-size: 17px;
+}
+footer .social-media{
+    bottom: 37px;
+    top: auto;
+}
+
+footer .Contact   {
+    bottom: 51px;
+    right: 20px;
+    top: auto;
+}
+footer .Copyright p{
+    font-size: 10px;
+}
+footer .Contact  ul li a {
+    font-size: 8px;
+    
+}
+
+  
+}

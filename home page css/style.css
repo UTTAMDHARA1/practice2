@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dela+Gothic+One&family=Farro:wght@300;400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dela+Gothic+One&family=Farro:wght@300;400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dela+Gothic+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dela+Gothic+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --light-color:white;
+    --primary-color:rgba(100, 86, 46, 1);
+    --dark-color:black;
+    --orange-color:orange;
+}
+body{
+    background-image: url(../images/Gradient.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*--------------------------------------top-banner---------------------------------*/
+.top-banner .navigation .offcanvas{
+    width: 63%;
+    background-color: #fdc483;
+}
+.top-banner .navigation .offcanvas .offcanvas-body ul li .nav-link{
+    display: inline!important;
+    padding: 8px 11px;
+    margin: 10px 0;
+}
+.top-banner .navigation ul li{
+    margin-left: 10px;
+}
+.top-banner .navigation ul li .nav-link{
+    font-weight: 400!important;
+}
+.top-banner .navigation ul li a:hover{
+    background-color: #5a034e;
+    color: white!important;
+    border-radius: 10px;
+    
+}
+.top-banner .navigation ul li a:focus{
+    background-color: #5a034e;
+    color: white!important;
+    border-radius: 10px;
+}
+.top-banner .navigation ul .dropdown-menu{
+    left: -152px;
+    background-color: transparent;
+    border: none;
+}
+.top-banner .navigation ul .dropdown-item{
+    width: 500px;
+}
+.top-banner .navigation ul .dropdown-item:hover{
+    background-color: transparent;
+}
+.top-banner .navigation ul .dropdown-item .form-control{
+    width: 390px;
+}
+
+.top-banner .banner-content .banner-text h2{
+    stroke: #64562E 100% !important;
+    font-size: 62px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+}
+.top-banner .banner-content .banner-text h5{
+    font-family: "Cormorant Garamond", serif;
+}
+.top-banner .banner-content .banner-text button{
+    background-color: #FFE2C8;
+   border: 2px solid rgba(100, 86, 46, 50%);
+}
+.top-banner .banner-content .banner-text button:hover{
+    background-color: #69045c;
+    color: var(--light-color);
+}
+/*----------------------------------varients----------------------------------*/
+.varrients .varrients-text h3{
+    color: #564C29;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 55px;
+}
+.varrients .varrients-text h4{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 27px;
+
+}
+.varrients .pine-apple img{
+    box-shadow: 0 10px 50px 0 #594631;
+    border-radius: 45px;
+}
+.varrients  .col-lg-3:nth-child(3){
+    margin-top: 15%;
+}
+.varrients  .col-lg-3:nth-child(4){
+    margin-top: 7%;
+}
+/*-----------------------------describe-------------------------------------*/
+.describe .header h2{
+    font-size: 60px;
+    font-family: "Cormorant Garamond", serif; ;
+}
+.describe .nav{
+    padding-top: 30px;
+}
+.nav-link{
+    color: #5a034e!important;
+    font-size: 17px!important;
+    font-weight: 600!important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--light-color)!important ;
+    background-color:#5a034e!important ;
+}
+.describe .tab-content .tab-pane {
+    background: linear-gradient(#FFEED9, #fdc483);
+    font-weight: 600;
+    font-family: "Cormorant Garamond", serif;
+    border-radius: 20px;
+    padding: 10px;
+}
+.describe .tab-content .tab-pane ul li{
+    font-size: 22px;
+}
+/*-----------------------------shop-cart-------------------------------------*/
+.shop-cart .cart-heading h2{
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif; ;
+    text-align: center;
+
+}
+.shop-cart .cart-heading h2 span{
+    font-size: 60px;
+    font-weight: 700;
+}
+.shop-cart .cart-content{
+    background: linear-gradient(#FFEED9, #FF9B25);
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 0 7px 0 white;
+}
+.shop-cart .cart-content h3{
+    font-size: 21px;
+    font-family: "Martian Mono", serif;
+    font-weight: 500;
+    color: #472535;
+
+}
+.shop-cart .cart-content h4{
+    font-size: 11px;
+    font-family: "Martian Mono", serif;
+    font-weight: 400;
+    color: #472535;
+
+}
+.shop-cart .cart-content a button{
+ background-color:#69045c;
+ color: var(--light-color);
+}
+.shop-cart .cart-content a button:hover{
+    background-color:var(--light-color);
+    color: var(--dark-color);   
+}
+.shop-cart .cart-content .fav{
+    top: 0;
+    right: 0;
+}
+.shop-cart .cart-content .fav img{
+    border-radius: 0 22px 0 22px;
+}
+.shop-cart .cart-content h5{
+    font-size: 1rem;
+}
+/* .shop-cart .owl-carousel {
+    padding: 0px 75px;
+} */
+/* .shop-cart .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+.shop-cart .owl-carousel button.owl-dot{
+    display: none;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 45%;
+    background-color: var(--orange-color)!important;
+    border-radius: 100%!important;
+    width: 65px;
+    height: 65px;
+
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #5e1505!important;
+    color: #FFF!important;
+}
+.owl-carousel .owl-nav button.owl-next span, .owl-carousel .owl-nav button.owl-prev span{
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    right: 0;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    left: 0;
+} */
+/*-----------------------------Company-------------------------------------*/
+.company .accordion{
+    background: linear-gradient(#FFEED9 #FF9B25)!important;
+    --bs-accordion-btn-bg: none !important ;
+}
+.company .company-header h3{
+    font-size: 60px;
+    font-family: "Cormorant Garamond", serif; ;
+    text-align: center;
+    color: #472535;
+}
+.company .company-header p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.company .accordion-button{
+    background-color: #f1ba7b!important;
+    color: white!important;
+    transition: 5s;
+}
+.company .accordion-button::after{
+    rotate: 274deg;
+}
+.company .company .accordion .accordion-item button{
+    font-size: 23px;
+    font-family: 800;
+    font-family: "Farro", serif;
+}
+.company .accordion .accordion-item .accordion-body p{
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Cormorant Garamond", serif; 
+}
+.company .accordion-button:not(.collapsed)::after{
+    rotate: 180deg;
+}
+/*-----------------------------leaders-------------------------------------*/
+.Leaders .Leaders-heading h2{
+    font-size: 35px;
+    font-family:"Cormorant Garamond", serif; 
+    text-align: center;
+}
+.Leaders .Leaders-heading h2 span{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.Leaders .Leaders-content .manager img{
+    width: 85px;
+}
+.Leaders .Leaders-content h3{
+    font-family:"Jost", serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+.Leaders .Leaders-content h4{
+    font-family: "Jost", serif;
+    font-size: 23px;
+    font-weight: 400;
+
+}
+/*-----------------------------footer-------------------------------------*/
+footer .footer-header img{
+    background-color: transparent;
+}
+footer .footer-header h3{
+    font-size: 23px;
+    font-family:"Jost", serif;
+}
+footer .Contact{
+    top: 20px;
+    right: 20px;
+}
+footer .social-media{
+    top: 0;
+}
+footer .Contact  ul li a {
+    font-family:"Jost", serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dela+Gothic+One&family=Farro:wght@300;400;500;700&family=Inconsolata:wght@200..900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dela+Gothic+One&family=Farro:wght@300;400;500;700&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dela+Gothic+One&family=Farro:wght@300;400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --light-color:white;
+    --primary-color:rgba(100, 86, 46, 1);
+    --dark-color:black;
+    --orange-color:orange;
+}
+/*--------------------------------------Header---------------------------------*/
+header{
+    background-image: url(../images/Frame\ 41.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+header .search-bar button{
+    padding: 6px 0px;
+    background-color: orange;
+
+}
+header .search-bar button i{
+    width: 40px;
+}
+header .search-bar .form-control{
+    border-radius: 0px;
+}
+header .header-text{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header h1,p{
+    text-shadow: 2px 3px 3px var(--light-color);
+    color: #472535;
+}
+header h1{
+    font-size: 55px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+}
+header p{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Inconsolata", serif;
+
+}
+/*--------------------------------------shop-options---------------------------------*/
+.shop-options .owl-carousel {
+    padding: 0 3px;
+}
+.shop-options .owl-carousel .item .cart-content{
+    height: 392px;
+}
+ /* .owl-theme .owl-dots{
+    display: none;
+} */
+.shop-options .owl-carousel .owl-nav .owl-prev,
+.shop-options .owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+    font-weight: 100;
+    opacity: 0.5;
+    color: var(--dark-color);
+}
+.shop-options .owl-carousel .owl-nav .owl-prev:hover,
+.shop-options .owl-carousel .owl-nav .owl-next:hover{
+    background-color:transparent;
+    opacity: 1;
+    color: var(--light-color);
+}
+.shop-options .owl-carousel .owl-nav .owl-prev{
+    left: 0;
+}
+.shop-options .owl-carousel .owl-nav .owl-next{
+    right: 0;
+}
+
+.shop-options .owl-carousel .item .cart-content h3{
+    font-size: 28px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 500;
+
+}
+.shop-options .owl-carousel .item .cart-content h4{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 0px 8px 0;
+}
+.shop-options .owl-carousel .item .cart-content a button{
+    background-color:#f3b89d;
+}
+.shop-options .owl-carousel .item .cart-content a button:hover{
+    background-color:#eea380;
+
+}
